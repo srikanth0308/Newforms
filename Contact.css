@@ -1,0 +1,51 @@
+   *{
+    font-weight: bold;
+       }
+
+        form {
+        max-width: 600px;
+        margin: 20px auto;
+            background-color: #f0f0f0; /* Same as background for blending effect */
+            padding: 50px;
+
+            border-radius: 20px; /* Adjust border radius for desired softness */
+            box-shadow: 5px 5px 10px #cbced1, -5px -5px 10px #ffffff; /* Neumorphic box shadow */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #dddddd; /* Add subtle border */
+            border-radius: 10px; /* Adjust border radius for desired softness */
+            background-color: #f0f0f0; /* Same as background for blending effect */
+            box-shadow: inset 5px 5px 10px #cbced1, inset -5px -5px 10px #ffffff; /* Neumorphic inset shadow */
+            margin-bottom: 10px;
+        }
+
+        span {
+            font-size: 1rem;
+            color: #f30c0c;
+            margin-bottom: 10px;
+            display: none;
+
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Green submit button */
+            color: white;
+            border: none;
+            border-radius: 10px; /* Adjust border radius for desired softness */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }

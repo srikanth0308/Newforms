@@ -1,0 +1,56 @@
+/* Job.css */
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    background: #e0e0e0;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+    max-width: 500px;
+    margin: 2rem auto;
+  }
+  
+  
+  
+  input[type="text"],
+  input[type="radio"],
+  input[type="file"],
+  input[type="checkbox"],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: inset 8px 8px 16px #bebebe, inset -8px -8px 16px #ffffff;
+    background: #e0e0e0;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: auto;
+    margin-right: 0.5rem;
+    box-shadow: none;
+  }
+  
+  button {
+    background: #e0e0e0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  span {
+    color: #ff0000;
+    display: none;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+  }
+  

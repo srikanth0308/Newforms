@@ -1,0 +1,72 @@
+*{
+      
+    font-weight: bold;
+ }
+
+    form {
+        max-width: 600px;
+        margin: 20px auto;
+        background: #e0e0e0;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 20px 20px 60px #bebebe,
+                    -20px -20px 60px #ffffff;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    input[type="file"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 10px;
+        background: #e0e0e0;
+        box-shadow: inset 5px 5px 10px #bebebe,
+                    inset -5px -5px 10px #ffffff;
+        font-size: 14px;
+        color: #333;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #e0e0e0;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #bebebe,
+                    -5px -5px 15px #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    button:hover {
+        box-shadow: inset 5px 5px 10px #bebebe,
+                    inset -5px -5px 10px #ffffff;
+    }
+
+    span.error {
+        color: red;
+        font-size: 1rem;  display: none;
+        margin-top: 5px;
+
+    }
